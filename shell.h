@@ -80,5 +80,15 @@ int string_toint(char *);
 /*strinhtokenizer1*/
 char **strword(char *, char *);
 char **stword1(char *, char);
+/* error handling*/
+void pinpustr(char *);
+int writechar(char);
+int writechare(char ch, int n)
+int pinpn(char *strings, int n)
+int handlestrtoint(char *);
+void errorm(info_t *, char *);
+int deciprint(int, int);
+char con_num(long int, int, int);
+char replace_comm(char *);
 #endif
 
