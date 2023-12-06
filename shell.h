@@ -78,6 +78,7 @@ int check_alpha(int);
 int _delimeter(char, char *);
 int string_toint(char *);
 /*strinhtokenizer1*/
-char ** strword(char *, char *);
+char **strword(char *, char *);
+char **stword1(char *, char);
 #endif
 
