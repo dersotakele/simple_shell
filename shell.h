@@ -99,5 +99,11 @@ char *cpys(char *, char *);
 char *dupstr(const char *);
 void _puts(char *);
 int _putchar(char);
+/* bultinfun*/
+int exitsh(info_t *);
+int cdd(info_t *);
+int cdhelp(info_t *);
+int hisdisp(info_t *);
+int mima(info_t *);
 #endif
 
