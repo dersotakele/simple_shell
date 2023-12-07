@@ -90,5 +90,14 @@ void errorm(info_t *, char *);
 int deciprint(int, int);
 char con_num(long int, int, int);
 char replace_comm(char *);
+/* string handler*/
+int lens(char *);
+int coms(char *, char *);
+char *starw(const char *, const char *);
+char *constr(char *, char *);
+char *cpys(char *, char *);
+char *dupstr(const char *);
+void _puts(char *);
+int _putchar(char);
 #endif
 
