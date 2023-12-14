@@ -105,5 +105,31 @@ int cdd(info_t *);
 int cdhelp(info_t *);
 int hisdisp(info_t *);
 int mima(info_t *);
+
+/*prompt*/
+int hsh(info_t *, char **);
+int findbn(info_t *);
+void fcmd(info_t *);
+void ficmd(info_t *);
+/*parser*/
+int isifcmd(info_t *, char *);
+char *_chardup(char *, int, int);
+char *fpath(info_t *, char *, char *);
+/*exit*/
+char *_strncpy(char *, char *, int);
+char *_strncat(char *, char *, int);
+char *_strchr(char *, char);
+/* alocate*/
+char *_memset(char *, char, unsigned int);
+void ffree(char **);
+void *_realloc(void *, unsigned int, unsigned int);
+/* memory
+ */
+int bfree(void **);
+/*getline*/
+ssize_t get_input(info_t *);
+int _getline(info_t *, char **, size_t *);
+void sigintHandler(int);
+`
 #endif
 
